@@ -1,0 +1,129 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif; 
+    box-sizing: border-box;
+
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    align-content: end;
+    min-height: 300px;
+    /* height: 500px; */
+    /* background: rgb(35, 35, 76); */
+    /* background-color: #121212;  */
+    padding: 50px;
+}
+
+#footerContainer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: white;
+    padding: 50px 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-gap: 20px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+
+}
+
+#footerContainer>div>h3 {
+    position: relative;
+    font: 600;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: white;
+    
+    
+}
+#footerContainer>div>h4{
+    font-size: 20px;
+    font: 300;
+    margin-top: 20px;
+    color: white;
+}
+#smIcons{
+    /* background: red; */
+    font-size: 25px;
+    padding: 10px;
+    gap: 15px;
+    color: rgb(13, 13, 13);
+    margin-left: 35px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+    
+}
+#first span{
+    color: rgb(71, 28, 212);
+    font-size: 60px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+#icon {
+    display: flex;
+}
+#icon h3{
+    font-size: 40px;
+    /* background: red; */
+    padding: 25px;
+}
+
+#sec h2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+     margin-left: 20px;
+     color: white;
+}
+
+#sec ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    color: white;
+
+}
+#sec ul li a{
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: white;
+} 
+#thrid h2 {
+    margin-top: 10px;
+margin-bottom: 15px;
+color: white;
+}
+#thrid ul li{
+    list-style: none;
+    margin-bottom: 15px;
+    color: white;
+}
+#thrid ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+#fourth h2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: white;
+}
+#fourth ul li{
+    list-style: none;
+    margin-bottom: 15px;
+    color: white;
+}
+#fourth ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* #footerContainer p1{
+    background:red ;
+} */
