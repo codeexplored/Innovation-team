@@ -42,7 +42,7 @@
     text-align: center;
     border-radius: 50%;
 } 
-#textblock{
+#textblock1{
     width: 450px;
     position: absolute;
     /* background: red; */
@@ -50,7 +50,7 @@
     left: 0;
     margin: 10px;
 }
-#textblock img{
+#textblock1  img{
     /* background: blue; */
     width: 400px;
     padding: 10px;
@@ -62,11 +62,36 @@ button{
     border-radius: 10px;
     margin: 10px;
 }
+button:hover{
+    background-color: blue;
+    transform: scale(2);
+    z-index: 1;
+   
+}
 p{
 font-size: 20px;
 color: white;
+font: 600px;
 
 width: 500px;
 margin: 10px;
 padding: 12px;
 }
+#textblock1>h2{
+    color: yellow;
+    padding: 10px;
+    margin-left: 10px;
+}
+/*  #textblock2{
+    width: 450px;
+    position: absolute;
+    top: 800px;
+    left: 0;
+    margin: 10px;
+}
+#textblock2 img{
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+ */
