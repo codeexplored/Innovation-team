@@ -1,393 +1,520 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title> Footer </title>
-    <script src="https://kit.fontawesome.com/5d9ffd48ee.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="./styles/footerupper.css">
 
-</head>
+     <title>MX Player - Play Music Videos, Watch Movies, TV Shows, Web Series, Short Films More</title>
+     <link rel="icon" href="./images/logo.png">
+
+     <!-- css style -->
+     <!-- <link rel="stylesheet" href="index.css"> -->
+     <link rel="stylesheet" href="index.css">
+
+     <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     </head>
 
 <body>
-    <!-- footer upper part -->
-    <div class="mainContainer">
-        <div id="trending">
-            <h4>Trending</h4>
-            <ul>
-                <li><a href="#">Matsya Kaand</a></li>
-                <li><a href="#">Indori Ishq </a></li>
-                <li><a href="#"> Campus Diaries </a></li>
-                <li><a href="#">Cartel</a></li>
-                <li><a href="#">Web Series</a></li>
-                <li><a href="#">Roohaniyat </a></li>
-                <li><a href="#">Korean Dramas</a></li>
-                <li><a href="#">Korean Dramas</a> </li>
+
+<div id="container">
+
+  <header class="header-container">
+
+    <!-- logo -->
+    <div id="logo">
+        <img class="logo-img" src="./images/logo.png" >
+             MX <span id="mx">PLAYER </span> 
+    </div>  
 
 
-            </ul>
+    <ul>
+    <li>   <i class="fa-solid fa-home white"></i></li>
+      <!--dropdawn design 1-->
+
+      <li class="dropdown" ><a href="#">Shows</a>
+        <div class="dd">
+          <div id="up_arrow"></div>
+        <ul>
+          <li><a href="#">Drama</a></li>
+          <li><a href="#">Thriller</a></li>
+          <li><a href="#">Reality</a></li>
+          <li><a href="#">Crime</a></li>
+          <li><a href="#">Comedy</a></li>
+        </ul>
         </div>
-        <div id="trending">
-            <h4>Movies by Language</h4>
-            <ul>
-                <li><a href="#">Hindi Movies</a></li>
-                <li><a href="#">Punjabi Movies</a></li>
-                <li><a href="#">Tamil Movies</a></li>
-                <li><a href="#">Telugu Movies</a></li>
-                <li><a href="#">Bhojpuri Movies</a></li>
-                <li><a href="#">Kannada Movies</a></li>
-                <li><a href="#">Marathi Movies</a></li>
-                <li><a href="#">English Movies</a></li>
+      </li>
 
-            </ul>
+      <!-- Dropdawn design 2 -->
+      <li class="dropdown" ><a href="#">Movies</a>
+        <div class="dd">
+          <div id="up_arrow"></div>
+        <ul>
+          <li><a href="#">Telugu    </a></li>
+          <li><a href="#">Tamil     </a></li>
+          <li><a href="#">Hindi     </a></li>
+          <li><a href="#">Bhojpuri  </a></li>
+          <li><a href="#">Malayalam </a></li>
+        </ul>
         </div>
-        <div id="trending">
-            <h4>Songs by Genre</h4>
-            <ul>
-                <li><a href="#">Melody Songs</a></li>
-                <li><a href="#">Pop Songs</a></li>
-                <li><a href="#">Electronic Songs</a></li>
-                <li><a href="#">Aarti & Bhajans</a></li>
-                <li><a href="#">Dance Songs</a></li>
-                <li><a href="#">Romantic Songs</a></li>
-                <li><a href="#">BirthDay Songs</a></li>
-                <li><a href="#">Children's Songs</a></li>
+      </li>
 
-            </ul>
-        </div>
-        <div id="trending">
-            <h4>Movies by Genre</h4>
-            <ul>
-                <li><a href="#">Crime Movies</a></li>
-                <li><a href="#">Action Movies</a></li>
-                <li><a href="#">Romance Movies</a></li>
-                <li><a href="#">Comedy Movies</a></li>
-                <li><a href="#">Horror Movies</a></li>
-                <li><a href="#">Animation Movies</a></li>
-                <li><a href="#">Thiller Movies</a></li>
-                <li><a href="#">Mystery Movies</a></li>
+      <li><a href="#">New & Hot🔥</a></li>
+      <li><a href="#">DistroTv</a></li>
+      <li><a href="#">MX VDesi</a></li>
+      <li><a href="#">MX Gold⭐</a></li>  
+      <li><a href="#">Trailers</a></li>
+      <li class="fa-solid fa-magnifying-glass white"> </li>
 
-            </ul>
-        </div>
-        <div id="trending">
-            <h4>Popular Actors</h4>
-            <ul>
-                <li><a href="#">Allu Arjun Movies</a></li>
-                <li><a href="#">Rashmika MandannaMovies</a></li>
-                <li><a href="#">Vijay Movies</a></li>
-                <li><a href="#">SuriyaMovies</a></li>
-                <li><a href="#">Samantha Akkineni Movies</a></li>
-                <li><a href="#">Ram Charan Movies</a></li>
-                <li><a href="#">Nayanthara Movies</a></li>
-                <li><a href="#">Mahesh Babu Movies</a></li>
-
-            </ul>
-
-        </div>
-        <div id="trending">
-            <h4>International Shows</h4>
-
-            <ul>
-                <li><a href="#">My GirlFriend Is Alien</a></li>
-                <li><a href="#">The Promise</a></li>
-                <li><a href="#">Hospital Ship</a></li>
-                <li><a href="#">Endless Love</a></li>
-                <li><a href="#">Put Your Head On My Shoulder</a></li>
-                <li><a href="#">Day Dreamer</a></li>
-                <li><a href="#">Goblin: The Lonely And Great</a></li>
-                <li><a href="#">God</a></li>
-
-            </ul>
-        </div>
-    </div>
-    <div class="mainContainer">
-        <div id="trending">
-            <h4>Popular Artists</h4>
-            <ul>
-                <li><a href="#">Khesari Lal Songs</a></li>
-                <li><a href="#">Shreya Ghoshal Songs</a></li>
-                <li><a href="#">Alka Yagnik Songs</a></li>
-                <li><a href="#">Udit Narayan Songs</a></li>
-                <li><a href="#">Sapna Songs</a></li>
-                <li><a href="#">Kishor Kumar Songs</a></li>
-                <li><a href="#">K Pop Songs</a></li>
-                <li><a href="#">Sonu Nigam Songs</a></li>
-
-            </ul>
-        </div>
-        <div id="trending">
-            <h4>Songs by Language</h4>
-            <ul>
-                <li><a href="#">Hindi Movies</a></li>
-                <li><a href="#">Punjabi Movies</a></li>
-                <li><a href="#">Tamil Movies</a></li>
-                <li><a href="#">Telugu Movies</a></li>
-                <li><a href="#">Bhojpuri Movies</a></li>
-                <li><a href="#">Kannada Movies</a></li>
-                <li><a href="#">Marathi Movies</a></li>
-                <li><a href="#">English Movies</a></li>
-
-            </ul>
-        </div>
-        <div id="trending">
-            <h4>Live TV Channels</h4>
-            <ul>
-                <li><a href="#">ABP News</a></li>
-                <li><a href="#">ABP Asmita Live</a></li>
-                <li><a href="#">ABP Majha Live</a></li>
-                <li><a href="#">India TV Live</a></li>
-                <li><a href="#">ABP Ananda Live</a></li>
-                <li><a href="#">ABP Sanjha Live</a></li>
-                <li><a href="#">CGTN HD Live</a></li>
-                <li><a href="#">ABP Ganga Live</a></li>
-
-            </ul>
-        </div>
-        <div id="trending">
-            <h4>Down the Lane</h4>
-            <ul>
-                <li><a href="#">2020 Hindi Movies</a></li>
-                <li><a href="#">2014 Tamil Movies</a></li>
-                <li><a href="#">2021 Movies</a></li>
-                <li><a href="#">2020 Tamil Movies</a></li>
-                <li><a href="#">2020 Malayalam Movies</a></li>
-                <li><a href="#">2018 Hindi Movies</a></li>
-                <li><a href="#">2020 Telugu Movies</a></li>
-                <li><a href="#">2020 English Movies</a></li>
-
-            </ul>
-        </div>
-        <div id="trending">
-            <h4>Trending on MX</h4>
-            <ul>
-                <li><a href="#">Bhaukaal 2</a></li>
-                <li><a href="#">The Bull of Dalal Street</a></li>
-                <li><a href="#">Tu Zakhm Hai Season 2</a></li>
-                <li><a href="#">The Song of Glory</a></li>
-
-            </ul>
-
-        </div>
-        <div id="trending">
-            <h4>Popular Web Series</h4>
-
-            <ul>
-                <li><a href="#">The Lady in Dignity</a></li>
-                <li><a href="#">My Girlfriend Is An Alien</a></li>
-                <li><a href="#">Put Your Head On My</a></li>
-                <li><a href="#">Shoulder</a></li>
-                <li><a href="#">Lover Or Stranger</a></li>
+      <li><img src="./images/upgrade to mx player.png" id="uMx"> </li>
+     <li class="fa-regular fa-bell white"></li>
       
-            </ul>
-        </div>
+      <li><a href="#">Login</a></li>
+      <li class="fa-solid fa-bars white"></li>
+      
+    </ul>
+  </header>
+</div>
+
+
+<!-- carousel design -->
+
+<div id="sliderContainer">
+  <div class="slides">
+      <img src="https://qqcdnpictest.mxplay.com/pic/85cb8d02cd38f2bb9de0ee5dae39b125/en/16x9/1600x900/test_pic1701584355709.webp" alt="">
+       <div id="textblock1">
+      <img src="https://qqcdnpictest.mxplay.com/pic/85cb8d02cd38f2bb9de0ee5dae39b125/en/16x9/320x180/test_pic1706687132442.png" alt="">
+      <p>HindiCrime, Thriller, Drama | Is Baba Nirala a Rakshak or Bhakshak ? Come find out</p>
+      <button>Play</button>
+      <button>MORE</button>
+      <button>ADD THE PLAYLIST</button>
+      </div> 
+  </div>
+  <div class="slides">
+      <img src="https://qqcdnpictest.mxplay.com/pic/57c2bf3975aa177662bd32f0e0fecdba/en/16x9/1600x900/test_pic1712572893927.webp" alt="">
+       <div id="textblock1">
+          <img src="https://qqcdnpictest.mxplay.com/pic/57c2bf3975aa177662bd32f0e0fecdba/en/16x9/320x180/test_pic1712572897166.png" alt="">
+          <h2> HindiRomance, Comedy, Drama<h2>
+             <p>This story is about the handsome young boy who secretly falls in love with his beautiful senior at school</p>
+          <button>Play</button>
+          <button>MORE</button>
+          <button>ADD THE PLAYLIST</button>
+      </div> 
+      </div>
+ 
+  <div class="slides">
+      <img src="https://qqcdnpictest.mxplay.com/pic/5b0efefa9e07725a8fddfec6a54d3133/en/16x9/1600x900/test_pic1691565104225.webp" alt="">
+      <div id="textblock1">
+          <img src="https://qqcdnpictest.mxplay.com/pic/5b0efefa9e07725a8fddfec6a54d3133/en/16x9/320x180/test_pic1661278334884.png" alt="">
+          <h2> HindiRomance, Comedy, Drama<h2>
+              <p>This story is about the handsome young boy who secretly falls in love with his beautiful senior at school</p>
+           <button>Play</button>
+           <button>MORE</button>
+           <button>ADD THE PLAYLIST</button>
+      </div>
+  </div>
+  <div class="slides">
+      <img src="https://qqcdnpictest.mxplay.com/pic/e475f090d92243424ef84849c7aba7af/en/16x9/1600x900/test_pic1716158804326.webp" alt="">
+      <div id="textblock1">
+          <img src="https://qqcdnpictest.mxplay.com/pic/e475f090d92243424ef84849c7aba7af/en/16x9/320x180/test_pic1716158809759.png" alt="">
+          <h2>News EnglishNews</h2>
+            <p>  Watch Now</p>
+          <button>Play</button>
+      </div>
+  </div>
+  <div class="slides">
+      <img src="https://qqcdnpictest.mxplay.com/pic/0c2d9b75c59f395941848077e28d5a8d/en/16x9/1600x900/test_pic1713177268908.webp" alt="">
+      <div id="textblock1">
+          <img src="https://qqcdnpictest.mxplay.com/pic/0c2d9b75c59f395941848077e28d5a8d/en/16x9/320x180/test_pic1713177277898.png" alt="">
+          <h2>HindiAction, Crime, Dubbed</h2>
+          <p>Watch Now!</p>
+          <button>Play</button>
+          <button>MORE</button>
+          <button>ADD THE PLAYLIST</button>
+      </div>
+  </div>
+
+  <div class="previous" onclick="addSlide(-1)"><</div>
+  <div class="next" onclick="addSlide(1)">></div>
+
+</div>
+
+<div style="display: flex;justify-content: center;align-items: center;gap:1px;">
+  <p class="number"></p>
+  <p class="number"></p>
+  <p class="number"></p>
+  <p class="number"></p>
+  <p class="number"></p>
+</div>
+
+
+<!-- footer -->
+   <!-- footer upper part -->
+   <div class="mainContainer">
+    <div id="trending">
+        <h4>Trending</h4>
+        <ul>
+            <li><a href="#">Matsya Kaand</a></li>
+            <li><a href="#">Indori Ishq </a></li>
+            <li><a href="#"> Campus Diaries </a></li>
+            <li><a href="#">Cartel</a></li>
+            <li><a href="#">Web Series</a></li>
+            <li><a href="#">Roohaniyat </a></li>
+            <li><a href="#">Korean Dramas</a></li>
+            <li><a href="#">Korean Dramas</a> </li>
+
+
+        </ul>
     </div>
-    <div class="mainContainer">
-        <div id="trending">
-            <h4>Famous Movies in Hindi</h4>
-            <ul>
-                <li><a href="#">RX 100</a></li>
-                <li><a href="#">Right in Front of Me</a></li>
-                <li><a href="#">Flip that Romance</a></li>
-                <li><a href="#">Snakes</a></li>
-              
+    <div id="trending">
+        <h4>Movies by Language</h4>
+        <ul>
+            <li><a href="#">Hindi Movies</a></li>
+            <li><a href="#">Punjabi Movies</a></li>
+            <li><a href="#">Tamil Movies</a></li>
+            <li><a href="#">Telugu Movies</a></li>
+            <li><a href="#">Bhojpuri Movies</a></li>
+            <li><a href="#">Kannada Movies</a></li>
+            <li><a href="#">Marathi Movies</a></li>
+            <li><a href="#">English Movies</a></li>
 
-            </ul>
-        </div>
-        <div id="trending">
-            <h4>Music Songs</h4>
-            <ul>
-                <li><a href="#">Hindi Songs</a></li>
-                <li><a href="#">Punjabi Songs</a></li>
-                <li><a href="#">Chumma Chumma 2022</a></li>
-                <li><a href="#">Rajasthani Songs</a></li>
-
-            </ul>
-        </div>
-        <div id="trending">
-            <h4>Popular Movies in Hindi</h4>
-            <ul>
-                <li><a href="#">World Famous Lover</a></li>
-                <li><a href="#">Dear Comrade</a></li>
-                <li><a href="#">Chennai Central</a></li>
-                <li><a href="#">Dwaraka</a></li>
-             
-            </ul>
-        </div>
-        <div id="trending">
-            <h4>International Dramas</h4>
-            <ul>
-                <li><a href="#">The Secret Weapon</a></li>
-                <li><a href="#">Sweet Sweet in Hindi</a></li>
-                <li><a href="#">DayDreamer</a></li>
-                <li><a href="#">Suspicious Partner</a></li>
-              
-
-            </ul>
-        </div>
-        
-
-        </div>
-        
+        </ul>
     </div>
+    <div id="trending">
+        <h4>Songs by Genre</h4>
+        <ul>
+            <li><a href="#">Melody Songs</a></li>
+            <li><a href="#">Pop Songs</a></li>
+            <li><a href="#">Electronic Songs</a></li>
+            <li><a href="#">Aarti & Bhajans</a></li>
+            <li><a href="#">Dance Songs</a></li>
+            <li><a href="#">Romantic Songs</a></li>
+            <li><a href="#">BirthDay Songs</a></li>
+            <li><a href="#">Children's Songs</a></li>
 
-    <!-- statement part 1-->
-    <div class="statement">
-        <div id="content">
-            <h2>Watch the Latest Movies in Hindi, Tamil, Telugu and Kannada Online on MX Player</h2>
-             <p>If you are looking for the latest movies, most popular web shows,<span id="dots">...</span><span
-                    id="more">newly released songs as well as the 
-                    latest news, then MX Player is your one-stop destination for all your entertainment needs. One of
-                    the
-                    best OTT platforms in India, MX Player is a free video streaming service that you can enjoy on your
-                    laptop, TV, mobile phone and other smart devices. You do not fight for the television remote
-                    anymore, as
-                    all your favourite TV channels live are streaming for free right here. From the best award-winning
-                    web
-                    shows and blockbuster movies to the latest music videos and daily TV shows, you name it and we have
-                    it
-                    for you. All you need to do is connect your smart device to the internet and let us do the rest. So
-                    you
-                    can now take the entertainment with you wherever you go. </span></p>
-
-
-            <button onclick="myFun()" id="myBtn">Read more</button>
-        </div>
-        <div id="content">
-            <h2>Stream News Live TV Channels, New Released Web Series for Free Online on MX Player</h2>
-            <p>While entertainment has no language, it sure bodes best in your mother tongue.<span id="dots">...</span><span
-                id="more"> Keeping this in mind MX
-                Player has for your movies, web shows and TV shows in Hindi, English, Tamil, Telugu, Kannada, Bhojpuri
-                and many other languages. You can explore the latest movies and music videos by language, genre and
-                moods. Not just this, you can also make your playlists and wish lists as per your choice of movies and
-                songs. Why look somewhere else when you can find all the entertainment you need with a click of a
-                button? Stay tuned to MX Player to check out the latest movies, upcoming song videos, new web series and
-                new releases in movies and shows.</span></p>
-            <button onclick="myFun()" id="myBtn">Read more</button>
-        </div>
-        <div id="content">
-            <h2>Catch unlimited Entertainment with Daily TV Show Episodes and New Web Shows Online</h2>
-            <p>If you miss an episode of your favourite TV show, do not worry as MX Player has<span id="dots">...</span><span
-                id="more"> got you covered. You can
-                watch the popular TV serials in Hindi, Marathi, Tamil and Telugu serials for free, right here. You can
-                browse the list of popular 2022 songs online, Amitabh Bachchan movies, the latest Allu Arjun movies, new
-                Suriya movies, popular Chiranjeevi movies and many more movies of the most famous actors. Play the
-                latest songs in Bhojpuri, new Punjabi songs, Kannada songs anytime and from anywhere. You can also
-                create your own playlists of party songs, and even a Bhajan and Aarti. Watch the latest movies, popular
-                web series and TV shows episodes all at once right here</span></p>
-            <button onclick="myFun()" id="myBtn">Read more</button>
-        </div>
-
+        </ul>
     </div>
-    <!-- 2 -->
-    <div class="statement">
-        <div id="content">
-            <h2>Check out Movies, Shows and Much More on MX Player</h2>
-            <p> Take delight of Trending: Hotspot Series, Pati Patni Aur Woh Series, Wolf Of<span id="dots">...</span><span
-                id="more"> Wall Street in Hindi,
-                Bollywood music & movies, Tollywood entertainment, Tamil Songs, English movies, much-loved web series,
-                shows and much more online whenever you want at MX Player. Now streaming Jersey Hindi Dubbed, The
-                Choice, My Girlfriend Is A Gumiho (Hindi Dubbed), The Hurricane Heist(Hindi Dubbed), Death Note Movie,
-                Dil Dhadak Dhadak, uncaged (Hindi Dubbed), Aashram season 3, Devdas, The Hunger Games in Hindi, Robin
-                Hood Movie in Hindi. Stream now! Samantar Web Series, Drag Me to Hell, Broken But Beautiful Season 3,
-                Paper Web Series & more.</span></p>
-            <button onclick="myFun()" id="myBtn">Read more</button>
+    <div id="trending">
+        <h4>Movies by Genre</h4>
+        <ul>
+            <li><a href="#">Crime Movies</a></li>
+            <li><a href="#">Action Movies</a></li>
+            <li><a href="#">Romance Movies</a></li>
+            <li><a href="#">Comedy Movies</a></li>
+            <li><a href="#">Horror Movies</a></li>
+            <li><a href="#">Animation Movies</a></li>
+            <li><a href="#">Thiller Movies</a></li>
+            <li><a href="#">Mystery Movies</a></li>
 
-        </div>
-        <div id="content">
-            <h2>Subscribe to MX Player and MX Silver Plans on MX Player</h2>
-            <p>You can now watch the latest web series and movies absolutely ad-free, <span id="dots">...</span><span
-                id="more">with the MX Player Subscription
-                Plans. You can watch the latest regional shows and newly released web series before everyone else with
-                exclusive plans. Also, check out MX Silver Subscription Plans and get uninterrupted entertainment. Build
-                your brand with MX Advantage and target ads for more than 300 million active users per month. Expand
-                your reach and make creative ads through all entertainment content with MX Player Advertisement. Join us
-                and be a part of our growth story. Check out MX Careers to build your career in the growing OTT
-                platform.</span></p>
-            <button onclick="myFun()" id="myBtn">Read more</button>
-        </div>
-        <div id="content">
-            <h2>Download MX Live App for Free Video Calls, Live Video Streaming and Gaming Fun!</h2>
-            <p>Showcase your talents not to a live audience online only with MX Live. <span id="dots">...</span><span
-                id="more">Join MX Live to meet and greet
-                people from all over the country and get a stage to shine with your talents. Make new friends and boost
-                your social life like never before. Get a chance to interact with your favourite content creators and
-                curate an audience for yourself. Meet people with the same hobbies, and interests and build a business
-                using your passion. With MX Live you can stream your ideas and talents with other singers, dancers and
-                mimicry artists. Download the MX Live App and live video chat, live stream your talents, play live
-                interactive games and video call live anytime and from anywhere.</span></p>
-            <button onclick="myFun()" id="myBtn">Read more</button>
-        </div>
-
+        </ul>
     </div>
+    <div id="trending">
+        <h4>Popular Actors</h4>
+        <ul>
+            <li><a href="#">Allu Arjun Movies</a></li>
+            <li><a href="#">Rashmika MandannaMovies</a></li>
+            <li><a href="#">Vijay Movies</a></li>
+            <li><a href="#">SuriyaMovies</a></li>
+            <li><a href="#">Samantha Akkineni Movies</a></li>
+            <li><a href="#">Ram Charan Movies</a></li>
+            <li><a href="#">Nayanthara Movies</a></li>
+            <li><a href="#">Mahesh Babu Movies</a></li>
 
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- footer part -->
-    <div id="footerContainer">
-        <div id="first">
-            <div id="icon">
-                <span><i class="fa-solid fa-circle-play"></i></span>
-                <h3>MXPLAYER</h3>
-            </div>
-            <p>MX Player is your one-stop destination for all your entertainment such as latest movies,
-                most popular web shows, Live TV channels, newly released songs etc</p>
-            <h4>Follow us for update</h4>
-            <div id="smIcons">
-                <i class="fa-brands fa-square-facebook"></i>
-                <i class="fa-brands fa-square-twitter"></i>
-                <i class="fa-brands fa-youtube"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-instagram"></i>
-            </div>
-
-        </div>
-        <div id="sec">
-            <h2>Company</h2>
-            <ul>
-                <li><a href="#">Abouts</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Advertise</a></li>
-                <li><a href="#">contact</a></li>
-                <li><a href="#">FAQ</a></li>
-
-            </ul>
-        </div>
-        <div id="thrid">
-            <h2>Legal</h2>
-            <ul>
-                <li><a href="#">Download Apps</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#"> Term of Service</a></li>
-                <li><a href="#">Content Copplaints</a></li>
-                <li><a href="#">copliance Report</a></li>
-
-
-            </ul>
-        </div>
-        <div id="fourth">
-            <h2>Install our Mobile App for Best Experience</h2>
-            <ul>
-                <li><a href="#">open cemera or any QR Scanner app on your mobile</a></li>
-                <li><a href="#">Scan this QR code and you’ll prompt a download link </a></li>
-                <li><a href="#"> App Available on</a></li>
-
-            </ul>
-        </div>
-
-        <p1>Copyright © 2022 MX Media & Entertainment. All rights reserved.</p1>
+        </ul>
 
     </div>
+    <div id="trending">
+        <h4>International Shows</h4>
+
+        <ul>
+            <li><a href="#">My GirlFriend Is Alien</a></li>
+            <li><a href="#">The Promise</a></li>
+            <li><a href="#">Hospital Ship</a></li>
+            <li><a href="#">Endless Love</a></li>
+            <li><a href="#">Put Your Head On My Shoulder</a></li>
+            <li><a href="#">Day Dreamer</a></li>
+            <li><a href="#">Goblin: The Lonely And Great</a></li>
+            <li><a href="#">God</a></li>
+
+        </ul>
+    </div>
+</div>
+<div class="mainContainer">
+    <div id="trending">
+        <h4>Popular Artists</h4>
+        <ul>
+            <li><a href="#">Khesari Lal Songs</a></li>
+            <li><a href="#">Shreya Ghoshal Songs</a></li>
+            <li><a href="#">Alka Yagnik Songs</a></li>
+            <li><a href="#">Udit Narayan Songs</a></li>
+            <li><a href="#">Sapna Songs</a></li>
+            <li><a href="#">Kishor Kumar Songs</a></li>
+            <li><a href="#">K Pop Songs</a></li>
+            <li><a href="#">Sonu Nigam Songs</a></li>
+
+        </ul>
+    </div>
+    <div id="trending">
+        <h4>Songs by Language</h4>
+        <ul>
+            <li><a href="#">Hindi Movies</a></li>
+            <li><a href="#">Punjabi Movies</a></li>
+            <li><a href="#">Tamil Movies</a></li>
+            <li><a href="#">Telugu Movies</a></li>
+            <li><a href="#">Bhojpuri Movies</a></li>
+            <li><a href="#">Kannada Movies</a></li>
+            <li><a href="#">Marathi Movies</a></li>
+            <li><a href="#">English Movies</a></li>
+
+        </ul>
+    </div>
+    <div id="trending">
+        <h4>Live TV Channels</h4>
+        <ul>
+            <li><a href="#">ABP News</a></li>
+            <li><a href="#">ABP Asmita Live</a></li>
+            <li><a href="#">ABP Majha Live</a></li>
+            <li><a href="#">India TV Live</a></li>
+            <li><a href="#">ABP Ananda Live</a></li>
+            <li><a href="#">ABP Sanjha Live</a></li>
+            <li><a href="#">CGTN HD Live</a></li>
+            <li><a href="#">ABP Ganga Live</a></li>
+
+        </ul>
+    </div>
+    <div id="trending">
+        <h4>Down the Lane</h4>
+        <ul>
+            <li><a href="#">2020 Hindi Movies</a></li>
+            <li><a href="#">2014 Tamil Movies</a></li>
+            <li><a href="#">2021 Movies</a></li>
+            <li><a href="#">2020 Tamil Movies</a></li>
+            <li><a href="#">2020 Malayalam Movies</a></li>
+            <li><a href="#">2018 Hindi Movies</a></li>
+            <li><a href="#">2020 Telugu Movies</a></li>
+            <li><a href="#">2020 English Movies</a></li>
+
+        </ul>
+    </div>
+    <div id="trending">
+        <h4>Trending on MX</h4>
+        <ul>
+            <li><a href="#">Bhaukaal 2</a></li>
+            <li><a href="#">The Bull of Dalal Street</a></li>
+            <li><a href="#">Tu Zakhm Hai Season 2</a></li>
+            <li><a href="#">The Song of Glory</a></li>
+
+        </ul>
+
+    </div>
+    <div id="trending">
+        <h4>Popular Web Series</h4>
+
+        <ul>
+            <li><a href="#">The Lady in Dignity</a></li>
+            <li><a href="#">My Girlfriend Is An Alien</a></li>
+            <li><a href="#">Put Your Head On My</a></li>
+            <li><a href="#">Shoulder</a></li>
+            <li><a href="#">Lover Or Stranger</a></li>
+  
+        </ul>
+    </div>
+</div>
+<div class="mainContainer">
+    <div id="trending">
+        <h4>Famous Movies in Hindi</h4>
+        <ul>
+            <li><a href="#">RX 100</a></li>
+            <li><a href="#">Right in Front of Me</a></li>
+            <li><a href="#">Flip that Romance</a></li>
+            <li><a href="#">Snakes</a></li>
+          
+
+        </ul>
+    </div>
+    <div id="trending">
+        <h4>Music Songs</h4>
+        <ul>
+            <li><a href="#">Hindi Songs</a></li>
+            <li><a href="#">Punjabi Songs</a></li>
+            <li><a href="#">Chumma Chumma 2022</a></li>
+            <li><a href="#">Rajasthani Songs</a></li>
+
+        </ul>
+    </div>
+    <div id="trending">
+        <h4>Popular Movies in Hindi</h4>
+        <ul>
+            <li><a href="#">World Famous Lover</a></li>
+            <li><a href="#">Dear Comrade</a></li>
+            <li><a href="#">Chennai Central</a></li>
+            <li><a href="#">Dwaraka</a></li>
+         
+        </ul>
+    </div>
+    <div id="trending">
+        <h4>International Dramas</h4>
+        <ul>
+            <li><a href="#">The Secret Weapon</a></li>
+            <li><a href="#">Sweet Sweet in Hindi</a></li>
+            <li><a href="#">DayDreamer</a></li>
+            <li><a href="#">Suspicious Partner</a></li>
+          
+
+        </ul>
+    </div>
+    
+
+    </div>
+    
+</div>
+
+<!-- statement part 1-->
+<div class="statement">
+    <div id="content">
+        <h2>Watch the Latest Movies in Hindi, Tamil, Telugu and Kannada Online on MX Player</h2>
+         <p>If you are looking for the latest movies, most popular web shows,<span id="dots">...</span><span
+                id="more">newly released songs as well as the 
+                latest news, then MX Player is your one-stop destination for all your entertainment needs. One of
+                the
+                best OTT platforms in India, MX Player is a free video streaming service that you can enjoy on your
+                laptop, TV, mobile phone and other smart devices. You do not fight for the television remote
+                anymore, as
+                all your favourite TV channels live are streaming for free right here. From the best award-winning
+                web
+                shows and blockbuster movies to the latest music videos and daily TV shows, you name it and we have
+                it
+                for you. All you need to do is connect your smart device to the internet and let us do the rest. So
+                you
+                can now take the entertainment with you wherever you go. </span></p>
+
+
+        <button onclick="myFun()" id="myBtn">Read more</button>
+    </div>
+    <div id="content">
+        <h2>Stream News Live TV Channels, New Released Web Series for Free Online on MX Player</h2>
+        <p>While entertainment has no language, it sure bodes best in your mother tongue.<span id="dots">...</span><span
+            id="more"> Keeping this in mind MX
+            Player has for your movies, web shows and TV shows in Hindi, English, Tamil, Telugu, Kannada, Bhojpuri
+            and many other languages. You can explore the latest movies and music videos by language, genre and
+            moods. Not just this, you can also make your playlists and wish lists as per your choice of movies and
+            songs. Why look somewhere else when you can find all the entertainment you need with a click of a
+            button? Stay tuned to MX Player to check out the latest movies, upcoming song videos, new web series and
+            new releases in movies and shows.</span></p>
+        <button onclick="myFun()" id="myBtn">Read more</button>
+    </div>
+    <div id="content">
+        <h2>Catch unlimited Entertainment with Daily TV Show Episodes and New Web Shows Online</h2>
+        <p>If you miss an episode of your favourite TV show, do not worry as MX Player has<span id="dots">...</span><span
+            id="more"> got you covered. You can
+            watch the popular TV serials in Hindi, Marathi, Tamil and Telugu serials for free, right here. You can
+            browse the list of popular 2022 songs online, Amitabh Bachchan movies, the latest Allu Arjun movies, new
+            Suriya movies, popular Chiranjeevi movies and many more movies of the most famous actors. Play the
+            latest songs in Bhojpuri, new Punjabi songs, Kannada songs anytime and from anywhere. You can also
+            create your own playlists of party songs, and even a Bhajan and Aarti. Watch the latest movies, popular
+            web series and TV shows episodes all at once right here</span></p>
+        <button onclick="myFun()" id="myBtn">Read more</button>
+    </div>
+
+</div>
+<!-- 2 -->
+<div class="statement">
+    <div id="content">
+        <h2>Check out Movies, Shows and Much More on MX Player</h2>
+        <p> Take delight of Trending: Hotspot Series, Pati Patni Aur Woh Series, Wolf Of<span id="dots">...</span><span
+            id="more"> Wall Street in Hindi,
+            Bollywood music & movies, Tollywood entertainment, Tamil Songs, English movies, much-loved web series,
+            shows and much more online whenever you want at MX Player. Now streaming Jersey Hindi Dubbed, The
+            Choice, My Girlfriend Is A Gumiho (Hindi Dubbed), The Hurricane Heist(Hindi Dubbed), Death Note Movie,
+            Dil Dhadak Dhadak, uncaged (Hindi Dubbed), Aashram season 3, Devdas, The Hunger Games in Hindi, Robin
+            Hood Movie in Hindi. Stream now! Samantar Web Series, Drag Me to Hell, Broken But Beautiful Season 3,
+            Paper Web Series & more.</span></p>
+        <button onclick="myFun()" id="myBtn">Read more</button>
+
+    </div>
+    <div id="content">
+        <h2>Subscribe to MX Player and MX Silver Plans on MX Player</h2>
+        <p>You can now watch the latest web series and movies absolutely ad-free, <span id="dots">...</span><span
+            id="more">with the MX Player Subscription
+            Plans. You can watch the latest regional shows and newly released web series before everyone else with
+            exclusive plans. Also, check out MX Silver Subscription Plans and get uninterrupted entertainment. Build
+            your brand with MX Advantage and target ads for more than 300 million active users per month. Expand
+            your reach and make creative ads through all entertainment content with MX Player Advertisement. Join us
+            and be a part of our growth story. Check out MX Careers to build your career in the growing OTT
+            platform.</span></p>
+        <button onclick="myFun()" id="myBtn">Read more</button>
+    </div>
+    <div id="content">
+        <h2>Download MX Live App for Free Video Calls, Live Video Streaming and Gaming Fun!</h2>
+        <p>Showcase your talents not to a live audience online only with MX Live. <span id="dots">...</span><span
+            id="more">Join MX Live to meet and greet
+            people from all over the country and get a stage to shine with your talents. Make new friends and boost
+            your social life like never before. Get a chance to interact with your favourite content creators and
+            curate an audience for yourself. Meet people with the same hobbies, and interests and build a business
+            using your passion. With MX Live you can stream your ideas and talents with other singers, dancers and
+            mimicry artists. Download the MX Live App and live video chat, live stream your talents, play live
+            interactive games and video call live anytime and from anywhere.</span></p>
+        <button onclick="myFun()" id="myBtn">Read more</button>
+    </div>
+
+</div>
+
+
+
+
+<!-- footer part -->
+<div id="footerContainer">
+    <div id="first">
+        <div id="icon">
+            <span><i class="fa-solid fa-circle-play"></i></span>
+            <h3>MXPLAYER</h3>
+        </div>
+        <p>MX Player is your one-stop destination for all your entertainment such as latest movies,
+            most popular web shows, Live TV channels, newly released songs etc</p>
+        <h4>Follow us for update</h4>
+        <div id="smIcons">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+
+    </div>
+    <div id="sec">
+        <h2>Company</h2>
+        <ul>
+            <li><a href="#">Abouts</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
+    </div>
+    <div id="thrid">
+        <h2>Legal</h2>
+        <ul>
+            <li><a href="#">Download Apps</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#"> Term of Service</a></li>
+            <li><a href="#">Content Copplaints</a></li>
+            <li><a href="#">copliance Report</a></li>
+        </ul>
+    </div>
+    <div id="fourth">
+        <h2>Install our Mobile App for Best Experience</h2>
+        <ul>
+            <li><a href="#">open cemera or any QR Scanner app on your mobile</a></li>
+            <li><a href="#">Scan this QR code and you’ll prompt a download link </a></li>
+            <li><a href="#"> App Available on</a></li>
+        </ul>
+    </div>
+
+    <p1>Copyright © 2022 MX Media & Entertainment. All rights reserved.</p1>
+
+</div>
+
+
+
+
+<script src="./index.js"></script>
 </body>
-<script src="./script/index.js"></script>
-
 </html>
